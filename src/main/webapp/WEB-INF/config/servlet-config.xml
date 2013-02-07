@@ -10,7 +10,7 @@
 
 	<mvc:annotation-driven/>
 	
-	<mvc:resources location="images" mapping="/images/**"/>
+	<mvc:resources location="assets" mapping="/assets/**"/>
 	<mvc:resources location="pdfs" mapping="/pdfs/**"/>
 	
 	<context:component-scan base-package="com.pluralsight"/>

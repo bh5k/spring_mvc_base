@@ -35,6 +35,10 @@ public class MinutesController {
 		System.out.println("exercise: " + exercise.getMinutes());
 		System.out.println("exercise activity: " + exercise.getActivity());
 		
+		if(result.hasErrors()) {
+			return "addMinutes";
+		}
+		
 		return "addMinutes";
 	}
 	
